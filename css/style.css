@@ -1,20 +1,38 @@
-.slider h3,.slider h5,.clients h3{
-	text-shadow: 1px 1px 5px rgba(0,0,0,.5)
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.parallax-container{
-	height: 20%;
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-.parallax img{
-	filter: grayscale(1);
-	opacity: .8 !important;
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-.clients img{
-	max-width: 200px;
-	filter: drop-shadow(1px 1px 3px rgba(0,0,0,.5) );
+.parallax-container {
+  height: 20%;
 }
-section,footer{
-	padding: 20px 0;
+.parallax img {
+  opacity: 0.8 !important;
+  filter: brightness(25%);
 }
-.clien{
-	padding: 0px;
+.clients img {
+  max-width: 200px;
+  max-height: 50px;
+  filter: drop-shadow(1px 1px 3px rgba(255, 255, 255, 0.5));
+}
+.banner {
+  filter: brightness(50%);
+}
+section {
+  padding: 10px 0;
+}
+.clien {
+  padding: 0px;
+}
+.responsive-img {
+  border-radius: 10px;
+}
+.rounded {
+  border-radius: 10px;
 }
