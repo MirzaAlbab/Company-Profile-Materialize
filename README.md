@@ -1,1 +1,1 @@
-Simpe Company Profile
+Simple Company Profile
